@@ -1,0 +1,126 @@
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.hero-header {
+    
+    flex: 1;
+    text-align: left;
+    max-width: 600px;     
+}
+
+.hero-header h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: -6px;
+  
+}
+
+.highlight1 {
+    display: block;
+    width: fit-content;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #52e920;
+   
+}
+
+.highlight2 {
+    display: block;
+    text-align:left;
+    font-size: 3.8rem;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-top: -2.3rem;
+    color: #52e920;
+}
+
+.hero-text {
+    flex: 1;
+    margin-top: 1.5rem;
+    max-width: 600px;
+    text-align: left;
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    margin-top: -1rem;
+    margin-bottom: 1.3rem;
+    line-height: 1.2;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333; 
+}
+
+.hero-header button {
+    padding: 0.99rem 2.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #3cd00b;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.hero-header button:hover {
+    transform: scale(1.05); 
+}
+
+.img {
+    flex: 1;
+    text-align: center;
+    padding: rem;
+    
+}
+
+.img img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 1px;
+ }
+
+
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-header {
+        text-align: center;
+    }
+
+    .hero-header h1 {
+        font-size: 3rem;
+    }
+
+    .highlight1 {
+        font-size: 1.2rem;
+    }
+
+    .highlight2 {
+        font-size: 2rem;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text button {
+        margin-top: 1rem;
+    }
+}
