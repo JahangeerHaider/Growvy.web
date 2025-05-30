@@ -4,12 +4,13 @@
     padding: 1rem;
     max-width: 1200px;
     font-size: 20px;
-    margin: 20px auto;
+    margin: 19px auto;
+    margin-bottom: 5rem;
     border: 2px solid black;
     border-radius: 20px;
     background-color: white;
     box-sizing: border-box;
-    line-height: 2.5;
+    line-height: 1.5;
 }
 
 .navbar-menu {
@@ -26,6 +27,12 @@
     text-decoration: underline;
     font-weight: bold;
     color: black;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+.navbar-menu li a:hover {
+    transform: scale(1.1);
+    
 }
 
 @media screen and (max-width: 768px) {
