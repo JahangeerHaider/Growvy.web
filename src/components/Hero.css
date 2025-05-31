@@ -1,19 +1,26 @@
+
 .hero-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:  1rem;
-    max-width: 1200px;
-    width: 100%;
-    margin: -1.5rem auto 0;
+    padding: 2rem;
+    width: 98%;
+    margin: 2rem auto;
+    margin: 2rem auto 1rem auto;
     gap: 2rem;
     text-align: center;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    box-sizing: border-box; 
 }
 
 .hero-header {
     flex: 1;
     text-align: left;
     max-width: 600px;
+    width: 100%;
 }
 
 .hero-header h1 {
@@ -43,8 +50,6 @@
     margin-top: -2.3rem;
 }
 
-
-
 .hero-description {
     font-size: 1.2rem;
     font-weight: 500;
@@ -57,9 +62,9 @@
 
 .hero-header button {
     padding: 0.9rem 2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin: 1.5rem;
+    margin: 1.5rem 0;
     border: none;
     background-color: #2f9f0a;
     color: white;
@@ -74,16 +79,21 @@
 
 .img {
     flex: 1;
-    max-width: 900px;
+    max-width: 600px;
+    width: 100%;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+        
 }
 
 .img img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    
+    border-radius: 12px;
+    max-height: 500px;
+    object-fit: contain;
 }
 
 

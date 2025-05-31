@@ -1,19 +1,23 @@
 .audience {
-    width: 90%;
+    width: 96%;
     max-width: 1200px;
-    margin: auto;
-    padding: 2rem 0;
+    margin: 3rem auto 0 auto;
+    padding: 2.5rem;
     font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    border:0px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
 }
 
 .audience-content {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    margin-top: -6rem;
+    margin-top: 0;
 }
 
-/* Shared styles for each section */
 .section {
     display: flex;
     align-items: center;
@@ -31,17 +35,19 @@
 }
 
 .text-content h1 {
-    font-size: 2rem;
-    font-weight:700;
+    font-size: 2.3rem;
+    font-weight: 700;
     color: #000;
-    
+    text-align: left;
 }
 
 .text-content p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #333;
-    margin-top: -1.9rem;
     font-weight: 500;
+    text-align: left;
+    margin-top: -1rem;
+    /* margin: -0.8rem 0 0 0; */
 }
 
 .text-content button {
@@ -51,11 +57,12 @@
     border: none;
     border-radius: 30px;
     font-weight: bold;
-    font-size: 1rem;
-    margin-top: -1rem;
-    width: 44%;
+    font-size: 1.5rem;
+    width: fit-content;
+    margin-top: -0.4rem;
     cursor: pointer;
     transition: transform 0.2s ease;
+    text-align: left;
 }
 
 .text-content button:hover {
@@ -69,24 +76,26 @@
 }
 
 .image-content img {
-    width: 50%;
+    width: 100%;
+    max-width: 300px;
     height: auto;
+    border-radius: 8px;
 }
 
-/* Alternate layouts */
 .section:nth-child(even) {
     flex-direction: row-reverse;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
-    .section {
-        flex-direction: column;
-        text-align: center;
+    .audience {
+        padding: 1.5rem;
+        width: 95%;
     }
 
+    .section,
     .section:nth-child(even) {
         flex-direction: column;
+        text-align: center;
     }
 
     .text-content,
@@ -96,5 +105,15 @@
 
     .text-content {
         align-items: center;
+    }
+
+    .text-content h1,
+    .text-content p,
+    .text-content button {
+        text-align: center;
+    }
+
+    .image-content img {
+        width: 80%;
     }
 }
