@@ -1,9 +1,9 @@
 import React from 'react'
-import './GetHired.css'
+import './Banner.css'
 
-function GetHired() {
+function Banner() {
   return (
-    <div className='contianer'>
+    <div className='banner-contianer'>
         <div className="hired-content">
             <h1>Join Growvy’s 50M+ Job Seeker</h1>
             <h1>Community & Get Hired Faster!</h1>
@@ -16,4 +16,4 @@ function GetHired() {
   )
 }
 
-export default GetHired
+export default Banner

@@ -1,6 +1,6 @@
 .audience {
-    width: 96%;
-    max-width: 1200px;
+    width: 100;
+    /* max-width: 1200px; */
     margin: 3rem auto 0 auto;
     padding: 2.5rem;
     font-family: 'Poppins', sans-serif;
