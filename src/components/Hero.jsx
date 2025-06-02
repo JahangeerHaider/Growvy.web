@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import image from '../assets/img1.png'
+import image1 from '../assets/img1.png'
 
 function Hero() {
   return (
@@ -22,7 +22,7 @@ function Hero() {
       </div>
 
       <div className="img">
-        <img src={image} alt="" />
+        <img src={image1} alt="" />
       </div>
 </div>
 

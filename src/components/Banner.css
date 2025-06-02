@@ -46,9 +46,9 @@
     color: white;
     padding: 0.96rem 4rem;
     border: none;
-    border-radius: 25px;
-    font-size: 1rem;
-    font-weight: 800;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
