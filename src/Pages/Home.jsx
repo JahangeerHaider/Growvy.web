@@ -21,7 +21,7 @@ useEffect(() => {
     if (section) {
       setTimeout(() => {
         section.scrollIntoView({ behavior: 'smooth' });
-      }, 100); // slight delay ensures the section is mounted
+      }, 100);
     }
   }
 }, [location]);

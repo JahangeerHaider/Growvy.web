@@ -1,0 +1,81 @@
+.job-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    margin-top: -1.5rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.job-text {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.job-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.job-text p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1.5rem;
+    margin-top: -1rem;
+    line-height: 1.6;
+}
+
+.job-btn {
+    padding: 10px 35px;
+    background-color: #2f9f0a;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: fit-content;
+}
+
+.job-btn:hover {
+    transform: scale(1.05);
+}
+
+.job-img {
+    flex: 1;
+    text-align: center;
+}
+
+.job-img img {
+    max-width: 40%;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 768px) {
+    .job-intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .job-text {
+        align-items: center;
+    }
+
+    .job-btn {
+        margin: 0 auto;
+    }
+
+    .job-img img {
+        max-width: 90%;
+    }
+}
