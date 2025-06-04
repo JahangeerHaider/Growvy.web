@@ -1,0 +1,86 @@
+.Pricing-business {
+    width: 100%;
+    padding: 4rem 1.5rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-header2 {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    
+}
+
+.business-header2 img {
+    width: 100%;
+    max-width: 198px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.business-header2 h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.business-header2 p {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.business-header2 button {
+    padding: 0.85rem 2.8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #2f9f0a;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.business-header2 button:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .business-header2 h1 {
+        font-size: 1.6rem;
+    }
+
+    .business-header2 p {
+        font-size: 1rem;
+    }
+
+    .business-header2 img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .business-header2 {
+        padding: 1.5rem;
+    }
+
+    .business-header2 h1 {
+        font-size: 1.4rem;
+    }
+
+    .business-header2 p {
+        font-size: 0.95rem;
+    }
+
+    .business-header2 button {
+        width: 100%;
+    }
+}

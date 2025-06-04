@@ -1,0 +1,79 @@
+.Pricing-ecomer {
+    width: 100%;
+    padding: 3rem 1rem;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ecommerce-header2 img {
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.ecommerce-header2 h1 {
+    font-size: 3rem;
+    color: #111;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+.ecommerce-header2 p {
+    font-size: 1.3rem;
+    color: #555;
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.ecommerce-header2 button {
+    padding: 0.85rem 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #2f9f0a;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.ecommerce-header2 button:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .ecommerce-header2 h1 {
+        font-size: 1.8rem;
+    }
+
+    .ecommerce-header2 p {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .ecommerce-header2 img {
+        max-width: 250px;
+    }
+
+    .ecommerce-header2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .ecommerce-header2 p {
+        font-size: 0.95rem;
+    }
+
+    .ecommerce-header2 button {
+        font-size: 0.95rem;
+        padding: 0.65rem 1.2rem;
+    }
+}
