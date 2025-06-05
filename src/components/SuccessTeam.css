@@ -1,0 +1,127 @@
+.success-cards-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+
+  .dotted-line {
+    position: relative;
+    height: 20px;
+    margin-top: 3rem;
+    margin-bottom: 50px;
+     
+  }
+  
+  .big-dot {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 16px;
+    background-color: #2f9f0a;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .small-dot {
+    position: absolute;
+    top: -4px;
+    width: 10px;
+    height: 10px;
+    background-color: #2f9f0a;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .left-1 { left: calc(50% - 40px); }
+  .left-2 { left: calc(50% - 80px); }
+  .left-3 { left: calc(50% - 120px); }
+  .right-1 { left: calc(50% + 40px); }
+  .right-2 { left: calc(50% + 80px); }
+  .right-3 { left: calc(50% + 120px); }
+  
+  .cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .card {
+      position: relative;
+      background: #fff;
+      width: 400px;
+      height: 220px;
+      padding: 70px 40px 40px;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      text-align: center;
+      transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+      transform: translateY(-6px);
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+  }
+  
+ 
+  .employee-icon {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background: #fff;
+    border: 2px solid #2f9f0a;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 3;
+  }
+  
+
+  .testimonial-text {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+
+ .success-cards-container .rating-star {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px 0 0;
+     gap: 5px;
+     color: #f5a623;
+     font-size: 20px;
+     flex-direction: row;
+
+ }
+  
+
+  @media (max-width: 768px) {
+    .cards-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+      height: auto;
+      padding-top: 100px;
+    }
+  
+    .employee-icon {
+      top: -10px;
+      left: -10px;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+.client-container {
+    width: 100%;
+    padding: 3rem 1rem;
+    background-color: #fdfdfd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.clients-logos {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.clients-logos img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.clients-logos img:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .clients-logos img {
+        height: 60px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .clients-logos {
+        gap: 1rem;
+    }
+
+    .clients-logos img {
+        height: 50px;
+    }
+}
