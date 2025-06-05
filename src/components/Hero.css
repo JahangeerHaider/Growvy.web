@@ -30,6 +30,38 @@
     line-height: 1;
     letter-spacing: -6px;
 }
+.oval-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.oval-wrap h1 {
+    position: relative;
+    
+}
+
+
+.oval-wrap::before,
+.oval-wrap::after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotate(-6deg);
+    width: 55%;
+    height: 100%;
+    border: 8px solid #2f9f0a;
+    border-radius: 70% / 70%;
+    pointer-events: none;
+    opacity: 0.80;
+}
+
+.oval-wrap::after {
+    transform: translate(-50%, -35%) rotate(-7deg);
+    width: 55%;
+    height: 100%;
+    border-color: #2f9f0a;
+}
 
 .highlight1 {
     display: block;

@@ -17,7 +17,7 @@ useEffect(() => {
     if (section) {
       setTimeout(() => {
         section.scrollIntoView({ behavior: 'smooth' });
-      }, 100); 
+      }, 200); 
     }
   }
 }, [location]);
@@ -25,7 +25,7 @@ useEffect(() => {
     <div>
      <ServiceHeader/>
      <UserInvite/>
-     <section id="services#solutions">
+     <section id="solutions">
       <BusinessSolution/>
      </section>
      <CallToAction/>

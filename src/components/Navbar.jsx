@@ -6,11 +6,11 @@ function Navbar() {
   return (
     <div className='navbar'>
         <ul className='navbar-menu'>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/jobs">Jobs</Link></li>
-            <li><Link to="/success">Success</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/pricing">Pricing</Link></li>
+            <li><Link to="/" onClick={() => window.scrollTo(0, 0)}>Home</Link></li>
+            <li><Link to="/jobs" onClick={() => window.scrollTo(0, 0)}>Jobs</Link></li>
+            <li><Link to="/success" onClick={() => window.scrollTo(0, 0)}>Success</Link></li>
+            <li><Link to="/services" onClick={() => window.scrollTo(0, 0)}>Services</Link></li>
+            <li><Link to="/pricing" onClick={() => window.scrollTo(0, 0)}>Pricing</Link></li>
 
         </ul>
       

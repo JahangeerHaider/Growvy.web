@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { FaFacebookF,FaInstagram,FaLinkedinIn } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import image8 from '../assets/img8.png'
 
 function Footer() {
@@ -29,12 +29,12 @@ function Footer() {
         </div>
         <div className="footer-center">
             <ul className='footer-links'>
-             <li><Link to="/#about">About Us</Link></li>
-             <li><Link to="/services">Services</Link></li>
-             <li><Link to="/pricing">Plans & Pricing</Link></li>
-             <li><Link to="/services#solutions">Business Solutions</Link></li>
-             <li><Link to="/success">Success Stories</Link></li>
-             <li><Link to="/jobs">Jobs</Link></li>
+              <li><Link smooth to="/#about">About Us</Link></li>
+              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/pricing">Plans & Pricing</Link></li>
+              <li><Link smooth to="/services#solutions">Business Solutions</Link></li>
+              <li><Link to="/success">Success Stories</Link></li>
+              <li><Link to="/jobs">Jobs</Link></li>
             </ul>
             <div className="rating-star">
             <i className="fa fa-star"></i>

@@ -7,7 +7,9 @@ function Hero() {
     <div className='hero-content'>
       <div className="hero-header">
         <h1>Maximize</h1>    
-        <h1>bussiness efficiency</h1>
+        <div className="oval-wrap">
+          <h1>bussiness efficiency</h1>
+        </div>
     
         <span className='highlight1'>With</span>
         <span className='highlight2'>Growvy</span>
